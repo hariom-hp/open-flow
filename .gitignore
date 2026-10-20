@@ -1,0 +1,19 @@
+# Build and temporary files
+FlowWidget
+FlowWidget.app
+cache/
+.DS_Store
+
+# Reverse engineering materials (proprietary app bundle)
+wispr-reverse/
+*.dmg
+extracted/
+
+# Local configuration & secrets
+.env
+scratch/
+
+# Temporary test scripts
+test_*.js
+update_*.js
+apply_*.js
